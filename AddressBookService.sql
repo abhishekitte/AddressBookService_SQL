@@ -69,3 +69,7 @@ select * from AddressBookTable;
 update AddressBookTable set AddressBookName='Friend',Type='Friend' where FirstName='Naveen';
 update AddressBookTable set AddressBookName='Brother',Type='Family' where FirstName='Ganesh';
 update AddressBookTable set AddressBookName='Faculty',Type='Profession' where FirstName='Anvesh';
+
+---------------------------UC10------------------------
+----------------Count person by type-----
+Select count(Type)as Count,Type  from AddressBookTable group by Type;
