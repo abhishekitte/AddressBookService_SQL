@@ -17,3 +17,12 @@ Phonenum bigint,
 EmailId varchar(100)
 );
 select * from AddressBookTable;
+
+
+----------UC3----->Insert into tables using fields--------
+
+Insert into AddressBookTable values('Abhishek','Itte','Worli','Mumbai','Maharastra',400013,9967320888,'abhishekitte11@gmail.com'),
+('Anvesh','Bitlingu','LowerParel','Mumbai','Maharashtra',400018,9619666078,'anveshb29@gmail.com'),
+('Ganesh','Mudigonda','Dadar','Mumbai','Maharastra',400025,993053254,'ganeshm2@gmail.com'),
+('Naveen','chil','Worli','Mumbai','Maharahtra',40014,8080277459,'naveenchi23@gmail.com');
+select * from AddressBookTable;
